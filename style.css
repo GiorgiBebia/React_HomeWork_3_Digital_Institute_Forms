@@ -1,0 +1,89 @@
+.main{
+    background-color: white;
+    width: 360px;
+    height: 667px;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+.avatar-sign{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 104px;
+    margin: 0 auto;
+    padding-top: 16px;
+}
+.img{
+    width: 104px;
+    height: 65px;
+}
+.sign{
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    color: #030102;
+}
+.name,
+.lname,
+.date-of-birth,
+.phone,
+.citizenship{
+    width: 300px;
+    height: 69px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+.fname,
+.lname,
+.date,
+.id,
+.phone,
+.citizenship-label{
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: #030102;
+}
+.fname-input,
+.lname-input,
+.date-input,
+.id-input,
+.phone-number-input{
+    width: 276px;
+    height: 19px;
+    padding: 10px 12px;
+    border: none;
+    border-radius: 10px;
+    background-color: #E2E6EE;
+    margin-top: 10px;
+}
+.date-input,
+.id-input{
+    width: 120px;
+}
+.date-input{
+    color: #9EA8BD;
+}
+.birth-id{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 300px;
+}
+.citizenship-input{
+    width: 300px;
+    padding: 10px 12px;
+    border: none;
+    border-radius: 10px;
+    background-color: #E2E6EE;
+    margin-top: 10px;
+    color: #9EA8BD;
+}
+.submit-btn{
+    padding: 12px 129px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-left: 30px;
+    font-family: 'Roboto';
+}

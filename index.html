@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="./style.css">
+    <title>Forms</title>
+</head>
+<body>
+    <div class="main">
+        <div class="avatar-sign">
+            <img class="img" src="./img/avatar.png" alt="Avatar">
+            <h2 class="sign">Sign Up</h2>
+        </div>
+        <form action="">
+            <div class="name">
+                <label class="fname" for="fname">First Name</label><br>
+                <input class="fname-input" type="text" id="fname" name="fname" placeholder="Enter First Name"><br>
+            </div>
+            <div class="lname">
+                <label class="lname" for="lname">Last Name</label><br>
+                <input class="lname-input" type="text" id="fname" name="fname" placeholder="Enter Last Name"><br>
+            </div>
+            <div class="birth-id">
+                <div class="date-of-birth">
+                    <label class="date" for="birthday">Date of birth</label><br>
+                    <input class="date-input" type="date" id="birthday" name="birthday" placeholder="MM/DD/YYYY">
+                </div>
+                <div class="id">
+                    <label class="id" for="id">ID</label><br>
+                    <input class="id-input" type="number" id="fname" name="fname" placeholder="..."><br>
+                </div>
+            </div>
+            <div class="phone">
+                <label class="phone-number" for="phone-number">Phone Number</label><br>
+                <input class="phone-number-input" type="number" id="fname" name="fname" placeholder="Enter Phone Number"><br>
+            </div>
+            <div class="citizenship">
+                <label class="citizenship-label" for="citizenship">Citizanship</label><br>
+                <select class="citizenship-input" name="citizenshiplist" form="citizenshipform">
+                    <option value="">Select Country</option>
+                    <option value="georgia">Georgia</option>
+                    <option value="usa">USA</option>
+                    <option value="spain">Spain</option>
+                </select>
+            </div>
+            <button class="submit-btn">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
